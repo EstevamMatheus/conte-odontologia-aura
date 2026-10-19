@@ -1,0 +1,613 @@
+﻿<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=Syne:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"error":"#ffb4ab","primary-fixed":"#f9e19b","outline":"#979081","on-primary":"#3c2f00","on-secondary-fixed":"#261a00","error-container":"#93000a","tertiary":"#ffffff","on-secondary-fixed-variant":"#5c4300","outline-variant":"#4b463a","on-tertiary-fixed-variant":"#624000","tertiary-fixed":"#ffddb2","secondary-container":"#c59300","on-tertiary-fixed":"#291800","primary":"#ffffff","inverse-on-surface":"#313030","secondary-fixed-dim":"#f6be39","surface-tint":"#dbc581","secondary":"#f6be39","background":"#131313","on-secondary":"#402d00","surface-dim":"#131313","surface":"#131313","surface-container-lowest":"#0e0e0e","surface-variant":"#353534","secondary-fixed":"#ffdfa0","primary-fixed-dim":"#dbc581","surface-container-low":"#1c1b1b","on-error-container":"#ffdad6","on-tertiary":"#452b00","on-primary-fixed-variant":"#54450e","inverse-surface":"#e5e2e1","surface-container-highest":"#353534","inverse-primary":"#6e5d24","surface-container":"#201f1f","surface-bright":"#3a3939","tertiary-fixed-dim":"#f9bb61","on-tertiary-container":"#8a5b00","on-primary-fixed":"#231b00","on-background":"#e5e2e1","on-surface":"#e5e2e1","on-secondary-container":"#433000","on-primary-container":"#746329","primary-container":"#f9e19b","on-error":"#690005","surface-container-high":"#2a2a2a","on-surface-variant":"#cec6b5","tertiary-container":"#ffddb2"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-mobile":"1.25rem","gutter":"1.5rem","margin":"3rem","space-xs":"0.25rem","space-lg":"1.5rem","space-md":"1rem","space-xl":"2.5rem","space-sm":"0.5rem","gutter-mobile":"1rem"},fontFamily:{"body-sm":["Hanken Grotesk"],"headline-md":["Syne"],"display-lg-mobile":["Syne"],"headline-xl":["Syne"],"body-md":["Hanken Grotesk"],"label-md":["Hanken Grotesk"],"headline-xl-mobile":["Syne"],"label-sm":["Hanken Grotesk"],"body-lg":["Hanken Grotesk"],"display-lg":["Syne"],"headline-sm":["Syne"],"headline-lg":["Syne"]},fontSize:{"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"0.01em","fontWeight":"500"}],"display-lg-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-xl":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0.01em","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.12em","fontWeight":"600"}],"headline-xl-mobile":["30px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.16em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"0.01em","fontWeight":"400"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"0.02em","fontWeight":"500"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"0em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface text-on-surface font-body-md text-body-md selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-black/85 backdrop-blur-md border-b border-white/10"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-space-md"><a class="flex items-center gap-space-sm group focus:outline-none" href="#"><img alt="Con Te Odontologia" class="w-9 h-9 object-cover rounded-full border border-secondary/40 shadow-[0_0_12px_rgba(246,190,57,0.18)]" src="assets/images/logo.png"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-wide text-primary uppercase">Con Te</span><span class="font-label-sm text-label-sm tracking-widest text-secondary uppercase -mt-1">Odontologia Especializada</span></div></a><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-secondary font-semibold border-b border-secondary pb-1"><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-secondary transition-colors duration-200 tracking-wider" data-path="clinica" href="#clinica">A Clínica</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-secondary transition-colors duration-200 tracking-wider" data-path="especialidades" href="#especialidades">Especialidades</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-secondary transition-colors duration-200 tracking-wider" data-path="equipe" href="#equipe">Nossa Equipe</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-secondary transition-colors duration-200 tracking-wider" data-path="contato" href="#contato">Contato &amp; Localização</a></nav><div class="flex items-center gap-space-md"><a class="inline-flex items-center justify-center font-label-md text-label-md uppercase tracking-wider px-space-md py-space-sm rounded-lg bg-gradient-to-r from-secondary-fixed to-secondary text-on-secondary font-bold hover:brightness-110 shadow-[0_0_20px_rgba(246,190,57,0.25)] transition-all duration-300" href="https://wa.me/5511972044184" rel="noopener noreferrer" target="_blank">Agendar Avaliação</a><img alt="Profile" class="w-8 h-8 rounded-full object-cover border border-outline-variant/60" src="assets/images/logo.png"/></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full text-on-surface bg-surface selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- ========================================== -->
+<!-- DOBRA 1: A CLÍNICA (#clinica)              -->
+<!-- ========================================== -->
+<section class="relative w-full overflow-hidden bg-surface-container-lowest py-space-xl lg:py-28" id="clinica">
+<!-- Ambient Golden Glow (Subtle radial highlight) -->
+<div class="pointer-events-none absolute -top-40 right-1/4 w-[600px] h-[600px] bg-secondary-fixed/5 rounded-full blur-[140px]"></div>
+<div class="pointer-events-none absolute bottom-0 left-10 w-[450px] h-[450px] bg-secondary/5 rounded-full blur-[160px]"></div>
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-space-xl items-center">
+<!-- Coluna Esquerda: Conteúdo Editorial -->
+<div class="lg:col-span-6 flex flex-col gap-space-md lg:pr-space-md">
+<!-- Tag Superior -->
+<div class="inline-flex items-center gap-space-xs self-start px-space-md py-space-xs rounded-full bg-surface-container-low shadow-[inset_0_1px_1px_rgba(246,190,57,0.15)]">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-md text-label-md uppercase tracking-[0.22em] text-secondary-fixed">
+              EXCELÊNCIA &amp; ALTA ODONTOLOGIA
+            </span>
+</div>
+<!-- Headline Exata -->
+<h1 class="font-headline-xl text-headline-xl lg:text-[44px] lg:leading-[52px] text-primary tracking-tight font-headline-xl">
+            Seu sorriso merece cuidado em <span class="bg-gradient-to-r from-secondary-fixed via-secondary to-primary-fixed-dim bg-clip-text text-transparent">cada detalhe.</span>
+</h1>
+<!-- Apoio Curto Exato -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+            Odontologia especializada com atenção à sua saúde bucal e ao seu sorriso.
+          </p>
+<!-- Selo Rápido Mauá -->
+<div class="flex items-center gap-space-sm pt-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-base">verified_user</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">
+              Mauá – SP | Atendimento Personalizado
+            </span>
+</div>
+<!-- Ações CTA -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md pt-space-md">
+<!-- Botão Dourado com Efeito Shimmer e Microcompressão -->
+<a class="group relative overflow-hidden inline-flex items-center justify-center gap-space-sm px-space-lg py-3.5 rounded-lg bg-gradient-to-r from-secondary-fixed via-secondary to-secondary-container text-on-secondary font-bold text-label-md uppercase tracking-wider shadow-[0_4px_24px_rgba(246,190,57,0.28)] transition-all duration-300 hover:shadow-[0_8px_32px_rgba(246,190,57,0.45)] hover:brightness-105 active:scale-95" href="https://wa.me/5511972044184" rel="noopener noreferrer" target="_blank">
+<span class="relative z-10 flex items-center gap-space-xs">
+<span>Agende sua avaliação</span>
+<span class="material-symbols-outlined text-base transition-transform duration-200 group-hover:translate-x-1">arrow_forward</span>
+</span>
+<!-- Shimmer Blade -->
+<span class="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/35 to-transparent ease-out"></span>
+</a>
+<!-- Botão Secundário Contornado com Rolagem Suave -->
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-3.5 rounded-lg bg-surface-container-low text-primary font-medium text-label-md uppercase tracking-wider transition-all duration-200 hover:bg-surface-container hover:text-secondary-fixed active:scale-95" data-scroll-to="especialidades" href="#especialidades">
+<span>Conheça a clínica</span>
+<span class="material-symbols-outlined text-base">expand_more</span>
+</a>
+</div>
+<!-- Micro-métrica de confiança -->
+<div class="grid grid-cols-3 gap-space-sm pt-space-lg mt-space-xs">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">100%</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Bespoke Care</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">8+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Especialidades</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">Mauá</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Jardim Pilar</span>
+</div>
+</div>
+</div>
+<!-- Coluna Direita: Composição Visual Editorial -->
+<div class="lg:col-span-6 relative">
+<!-- Moldura e Efeito de Sobreposição -->
+<div class="relative mx-auto max-w-lg lg:max-w-none">
+<!-- Glow Traseiro -->
+<div class="absolute -inset-1 rounded-xl bg-gradient-to-tr from-secondary/30 via-transparent to-secondary-fixed/10 blur-xl opacity-60"></div>
+<!-- Card de Imagem Principal -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-low group shadow-2xl">
+<div class="overflow-hidden aspect-[4/3] w-full bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Modern ultra-luxurious dental clinic interior suite in Mauá SP, sculptural minimalist architecture, warm subtle champagne golden accent lighting, high-tech dental chair with brushed metal finishes, serene dark tone ambience, spotless reflections, luxury spa clinic aesthetic." src="assets/images/clinic-suite.jpg"/>
+</div>
+<!-- Badge Flutuante no Card -->
+<div class="absolute bottom-space-md left-space-md right-space-md p-space-md rounded-lg bg-surface-container-lowest/85 backdrop-blur-md flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-secondary text-xl">medical_services</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-base text-primary truncate">Tecnologia &amp; Acolhimento</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Ambiente privativo e biossegurança rigorosa</span>
+</div>
+</div>
+<div class="hidden sm:flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</div>
+<!-- Detalhe Flutuante Arquitetônico -->
+<div class="hidden sm:flex absolute -top-5 -right-5 px-space-md py-space-sm rounded-lg bg-surface-container-high shadow-xl items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-sm">precision_manufacturing</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary">Diagnóstico Digital</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- DOBRA 2: ESPECIALIDADES (#especialidades)  -->
+<!-- ========================================== -->
+<section class="relative w-full bg-surface py-space-xl lg:py-28" id="especialidades">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+<!-- Cabeçalho da Seção -->
+<div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-md text-label-md uppercase tracking-[0.24em] text-secondary mb-space-xs">
+          Cuidado Abrangente
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-primary tracking-tight">
+          Especialidades
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Tratamentos planejados com precisão e tecnologia.
+        </p>
+<div class="w-16 h-0.5 bg-gradient-to-r from-transparent via-secondary to-transparent mt-space-md"></div>
+</div>
+<!-- Grid com as 8 Especialidades Exatas -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Card 1: Clínica Geral -->
+<div class="specialty-card group cursor-pointer relative flex flex-col justify-between p-space-lg rounded-xl bg-surface-container-low transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_12px_32px_-8px_rgba(246,190,57,0.18)]" data-desc="Prevenção contínua, profilaxia profunda, restaurações funcionais estéticas e diagnóstico integral para a preservação de dentes sadios." data-specialty="Clínica Geral">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-md transition-colors duration-300 group-hover:bg-secondary group-hover:text-on-secondary">
+<span class="material-symbols-outlined text-2xl">dentistry</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs group-hover:text-secondary-fixed transition-colors">
+              Clínica Geral
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+              Prevenção, check-up preventivo completo, profilaxia e restaurações minimamente invasivas de alta estética.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-wider group-hover:text-secondary-fixed">
+<span>Saber mais</span>
+<span class="material-symbols-outlined text-sm transition-transform duration-200 group-hover:translate-x-1">arrow_forward</span>
+</div>
+</div>
+<!-- Card 2: Ortodontia -->
+<div class="specialty-card group cursor-pointer relative flex flex-col justify-between p-space-lg rounded-xl bg-surface-container-low transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_12px_32px_-8px_rgba(246,190,57,0.18)]" data-desc="Alinhadores invisíveis modernos e aparelhos de alta performance desenhados para correções anatômicas e harmonia funcional." data-specialty="Ortodontia">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-md transition-colors duration-300 group-hover:bg-secondary group-hover:text-on-secondary">
+<span class="material-symbols-outlined text-2xl">straighten</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs group-hover:text-secondary-fixed transition-colors">
+              Ortodontia
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+              Alinhamento dentário funcional com alinhadores transparentes e aparelhos autoligados de máxima discrição.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-wider group-hover:text-secondary-fixed">
+<span>Saber mais</span>
+<span class="material-symbols-outlined text-sm transition-transform duration-200 group-hover:translate-x-1">arrow_forward</span>
+</div>
+</div>
+<!-- Card 3: Implantodontia -->
+<div class="specialty-card group cursor-pointer relative flex flex-col justify-between p-space-lg rounded-xl bg-surface-container-low transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_12px_32px_-8px_rgba(246,190,57,0.18)]" data-desc="Reabilitações com implantes de titânio de osseointegração rápida e cirurgia guiada com planejamento 3D milimétrico." data-specialty="Implantodontia">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-md transition-colors duration-300 group-hover:bg-secondary group-hover:text-on-secondary">
+<span class="material-symbols-outlined text-2xl">hardware</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs group-hover:text-secondary-fixed transition-colors">
+              Implantodontia
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+              Recuperação definitiva da mastigação e segurança com implantes osseointegrados guiados por computador.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-wider group-hover:text-secondary-fixed">
+<span>Saber mais</span>
+<span class="material-symbols-outlined text-sm transition-transform duration-200 group-hover:translate-x-1">arrow_forward</span>
+</div>
+</div>
+<!-- Card 4: Endodontia -->
+<div class="specialty-card group cursor-pointer relative flex flex-col justify-between p-space-lg rounded-xl bg-surface-container-low transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_12px_32px_-8px_rgba(246,190,57,0.18)]" data-desc="Tratamento e retratamento de canal sob magnificação, instrumentos rotatórios térmicos e anestesia computadorizada sem dor." data-specialty="Endodontia">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-md transition-colors duration-300 group-hover:bg-secondary group-hover:text-on-secondary">
+<span class="material-symbols-outlined text-2xl">smb_share</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs group-hover:text-secondary-fixed transition-colors">
+              Endodontia
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+              Tratamento de canais com conforto térmico, odontologia microscópica e procedimentos indolores em sessão única.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-wider group-hover:text-secondary-fixed">
+<span>Saber mais</span>
+<span class="material-symbols-outlined text-sm transition-transform duration-200 group-hover:translate-x-1">arrow_forward</span>
+</div>
+</div>
+<!-- Card 5: Periodontia -->
+<div class="specialty-card group cursor-pointer relative flex flex-col justify-between p-space-lg rounded-xl bg-surface-container-low transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_12px_32px_-8px_rgba(246,190,57,0.18)]" data-desc="Saúde dos tecidos de suporte, cirurgias plásticas periodontais para correção de sorriso gengival e proteção óssea." data-specialty="Periodontia">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-md transition-colors duration-300 group-hover:bg-secondary group-hover:text-on-secondary">
+<span class="material-symbols-outlined text-2xl">spa</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs group-hover:text-secondary-fixed transition-colors">
+              Periodontia
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+              Tratamento gengival especializado e plásticas gengivais para contornos harmônicos e estabilidade bucal.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-wider group-hover:text-secondary-fixed">
+<span>Saber mais</span>
+<span class="material-symbols-outlined text-sm transition-transform duration-200 group-hover:translate-x-1">arrow_forward</span>
+</div>
+</div>
+<!-- Card 6: Harmonização Orofacial -->
+<div class="specialty-card group cursor-pointer relative flex flex-col justify-between p-space-lg rounded-xl bg-surface-container-low transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_12px_32px_-8px_rgba(246,190,57,0.18)]" data-desc="Equilíbrio estético e funcional entre lábios, dentes e proporções faciais com bioestimuladores e preenchimentos avançados." data-specialty="Harmonização Orofacial">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-md transition-colors duration-300 group-hover:bg-secondary group-hover:text-on-secondary">
+<span class="material-symbols-outlined text-2xl">face_3</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs group-hover:text-secondary-fixed transition-colors">
+              Harmonização Orofacial
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+              Valorização da arquitetura facial com tratamentos personalizados para simetria, rejuvenescimento e proporção.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-wider group-hover:text-secondary-fixed">
+<span>Saber mais</span>
+<span class="material-symbols-outlined text-sm transition-transform duration-200 group-hover:translate-x-1">arrow_forward</span>
+</div>
+</div>
+<!-- Card 7: Odontopediatria -->
+<div class="specialty-card group cursor-pointer relative flex flex-col justify-between p-space-lg rounded-xl bg-surface-container-low transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_12px_32px_-8px_rgba(246,190,57,0.18)]" data-desc="Atendimento carinhoso e adaptativo para crianças e adolescentes, criando memórias positivas e saúde desde a infância." data-specialty="Odontopediatria">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-md transition-colors duration-300 group-hover:bg-secondary group-hover:text-on-secondary">
+<span class="material-symbols-outlined text-2xl">child_care</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs group-hover:text-secondary-fixed transition-colors">
+              Odontopediatria
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+              Cuidado humanizado e lúdico para o desenvolvimento orofacial saudável de bebês, crianças e jovens.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-wider group-hover:text-secondary-fixed">
+<span>Saber mais</span>
+<span class="material-symbols-outlined text-sm transition-transform duration-200 group-hover:translate-x-1">arrow_forward</span>
+</div>
+</div>
+<!-- Card 8: Prótese Odontológica -->
+<div class="specialty-card group cursor-pointer relative flex flex-col justify-between p-space-lg rounded-xl bg-surface-container-low transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_12px_32px_-8px_rgba(246,190,57,0.18)]" data-desc="Laminados cerâmicos, coroas em zircônia e reabilitações completas esculpidas com textura natural e biocompatibilidade." data-specialty="Prótese Odontológica">
+<div class="flex flex-col">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-secondary mb-space-md transition-colors duration-300 group-hover:bg-secondary group-hover:text-on-secondary">
+<span class="material-symbols-outlined text-2xl">auto_fix_high</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs group-hover:text-secondary-fixed transition-colors">
+              Prótese Odontológica
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+              Lentes de contato dentais, coroas puras de porcelana e reabilitação estética com acabamento joalheiro.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-wider group-hover:text-secondary-fixed">
+<span>Saber mais</span>
+<span class="material-symbols-outlined text-sm transition-transform duration-200 group-hover:translate-x-1">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- DOBRA 3: NOSSA EQUIPE (#equipe)            -->
+<!-- ========================================== -->
+<section class="relative w-full bg-surface-container-lowest py-space-xl lg:py-28 overflow-hidden" id="equipe">
+<!-- Ambient background soft trace -->
+<div class="pointer-events-none absolute -bottom-32 left-1/3 w-[500px] h-[500px] bg-secondary-fixed/5 rounded-full blur-[150px]"></div>
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin relative z-10">
+<!-- Cabeçalho -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div class="flex flex-col max-w-xl">
+<span class="font-label-md text-label-md uppercase tracking-[0.24em] text-secondary mb-space-xs">
+            Excelência Humana
+          </span>
+<h2 class="font-headline-xl text-headline-xl text-primary tracking-tight">
+            Nossa Equipe
+          </h2>
+<!-- Texto Curto Exato Solicitado -->
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+            Profissionais que cuidam de você com atenção em cada etapa.
+          </p>
+</div>
+<div class="flex items-center gap-space-xs self-start md:self-auto px-space-md py-space-xs rounded-full bg-surface-container">
+<span class="material-symbols-outlined text-secondary text-sm">groups</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Corpo Clínico Integrado</span>
+</div>
+</div>
+<!-- Grid da Equipe com Cards Humanizados e Sofisticados -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Especialista 1 -->
+<div class="group flex flex-col rounded-xl bg-surface-container-low overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_12px_32px_-8px_rgba(246,190,57,0.15)]">
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105" data-alt="Editorial portrait of a distinguished Brazilian male dental surgeon in immaculate modern black clinical scrubs, warm subtle golden studio lighting, composed and confident demeanor, high-end luxury dentistry photoshoot aesthetic." src="assets/images/specialist-1.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-90"></div>
+<div class="absolute top-space-md right-space-md px-space-sm py-1 rounded bg-black/75 backdrop-blur-md">
+<span class="font-label-sm text-label-sm text-secondary-fixed tracking-wider uppercase">Con Te Odontologia</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">CRO-SP Especializado</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-0.5">Corpo Clínico Con Te</h3>
+<p class="font-body-sm text-body-sm text-secondary-fixed mt-1">Reabilitação Oral &amp; Implantodontia</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm">
+                Foco no planejamento digital do sorriso e tratamentos restauradores complexos com máxima previsibilidade.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-space-sm px-space-md rounded-lg bg-surface-container text-primary font-label-md text-label-md uppercase tracking-wider hover:bg-secondary hover:text-on-secondary transition-all duration-200 active:scale-95" href="https://wa.me/5511972044184?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20em%20Reabilita%C3%A7%C3%A3o%20Oral." rel="noopener noreferrer" target="_blank">
+<span>Agendar com especialista</span>
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Especialista 2 -->
+<div class="group flex flex-col rounded-xl bg-surface-container-low overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_12px_32px_-8px_rgba(246,190,57,0.15)]">
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105" data-alt="Editorial portrait of an elegant female specialist dentist in dark refined clinical uniform, subtle champagne lighting, welcoming natural expression, sharp studio portraiture for luxury dental clinic." src="assets/images/specialist-2.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-90"></div>
+<div class="absolute top-space-md right-space-md px-space-sm py-1 rounded bg-black/75 backdrop-blur-md">
+<span class="font-label-sm text-label-sm text-secondary-fixed tracking-wider uppercase">Con Te Odontologia</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">CRO-SP Especializado</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-0.5">Corpo Clínico Con Te</h3>
+<p class="font-body-sm text-body-sm text-secondary-fixed mt-1">Ortodontia &amp; Estética Facial</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm">
+                Condução de tratamentos com alinhadores invisíveis e alinhamento biomecânico para harmonia natural.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-space-sm px-space-md rounded-lg bg-surface-container text-primary font-label-md text-label-md uppercase tracking-wider hover:bg-secondary hover:text-on-secondary transition-all duration-200 active:scale-95" href="https://wa.me/5511972044184?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20em%20Ortodontia." rel="noopener noreferrer" target="_blank">
+<span>Agendar com especialista</span>
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Especialista 3 -->
+<div class="group flex flex-col rounded-xl bg-surface-container-low overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_12px_32px_-8px_rgba(246,190,57,0.15)]">
+<div class="relative aspect-[3/4] w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105" data-alt="Editorial portrait of a skilled clinician specialist dentist in dark aesthetic medical attire holding a diagnostic tablet, soft golden studio rim light, sophisticated healthcare ambience." src="assets/images/specialist-3.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-90"></div>
+<div class="absolute top-space-md right-space-md px-space-sm py-1 rounded bg-black/75 backdrop-blur-md">
+<span class="font-label-sm text-label-sm text-secondary-fixed tracking-wider uppercase">Con Te Odontologia</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">CRO-SP Especializado</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-0.5">Corpo Clínico Con Te</h3>
+<p class="font-body-sm text-body-sm text-secondary-fixed mt-1">Harmonização Orofacial &amp; Prótese</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm">
+                Arquitetura do sorriso, lentes cerâmicas de contato e terapias orofaciais integradas com precisão.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md">
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-space-sm px-space-md rounded-lg bg-surface-container text-primary font-label-md text-label-md uppercase tracking-wider hover:bg-secondary hover:text-on-secondary transition-all duration-200 active:scale-95" href="https://wa.me/5511972044184?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20em%20Harmoniza%C3%A7%C3%A3o%20ou%20Pr%C3%B3tese." rel="noopener noreferrer" target="_blank">
+<span>Agendar com especialista</span>
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- DOBRA 4: CONTATO & LOCALIZAÇÃO (#contato)  -->
+<!-- ========================================== -->
+<section class="relative w-full bg-surface py-space-xl lg:py-28 overflow-hidden" id="contato">
+<!-- Glow Accent -->
+<div class="pointer-events-none absolute top-10 right-10 w-[400px] h-[400px] bg-secondary/5 rounded-full blur-[130px]"></div>
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-space-xl items-start">
+<!-- Coluna 1: Conversão & Informações -->
+<div class="lg:col-span-6 flex flex-col gap-space-lg">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase tracking-[0.24em] text-secondary mb-space-xs">
+              Atendimento Dedicado
+            </span>
+<!-- Destaque Editorial com Mensagem Exata Solicitada -->
+<h2 class="font-headline-xl text-headline-xl text-primary tracking-tight">
+              Agende sua avaliação e transforme seu sorriso!
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm">
+              Estamos prontos para acolher você em Mauá com planejamento individualizado, estrutura de ponta e horários flexíveis.
+            </p>
+</div>
+<!-- Botão Principal de Conversão Reluzente de Luxo -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md">
+<a class="group relative overflow-hidden inline-flex items-center justify-center gap-space-sm px-space-xl py-4 rounded-xl bg-gradient-to-r from-secondary-fixed via-secondary to-secondary-container text-on-secondary font-bold text-label-md uppercase tracking-wider shadow-[0_8px_32px_rgba(246,190,57,0.32)] transition-all duration-300 hover:shadow-[0_12px_44px_rgba(246,190,57,0.5)] hover:brightness-105 active:scale-95" href="https://wa.me/5511972044184" rel="noopener noreferrer" target="_blank">
+<span class="relative z-10 flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">chat</span>
+<span class="text-body-md font-bold">Falar pelo WhatsApp</span>
+</span>
+<!-- Shimmer Blade -->
+<span class="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/40 to-transparent ease-out"></span>
+</a>
+</div>
+<!-- Bloco de Informações Precisas e Verificadas -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col gap-space-md shadow-lg">
+<!-- WhatsApp -->
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-xl">phone_iphone</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">WhatsApp Direto</span>
+<a class="font-headline-sm text-headline-sm text-primary hover:text-secondary transition-colors" href="https://wa.me/5511972044184" rel="noopener noreferrer" target="_blank">
+                  (11) 97204-4184
+                </a>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Resposta rápida para agendamentos e dúvidas clínicas.</span>
+</div>
+</div>
+<div class="w-full h-px bg-surface-container-high"></div>
+<!-- Endereço -->
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-xl">location_on</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Endereço da Clínica</span>
+<span class="font-body-lg text-body-lg text-primary font-medium">
+                  R. Biágio Cecon, 13 – Jardim Pilar, Mauá – SP
+                </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">CEP 09370-030</span>
+</div>
+</div>
+<div class="w-full h-px bg-surface-container-high"></div>
+<!-- Facilidade de Acesso -->
+<div class="flex items-center gap-space-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-base">local_parking</span>
+<span class="font-body-sm text-body-sm">
+                Fácil acesso pela região central de Mauá e opções de estacionamento nas proximidades.
+              </span>
+</div>
+</div>
+</div>
+<!-- Coluna 2: Mapa & Localização Visual -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<!-- Visualizador do Mapa com Botão 'Como Chegar' -->
+<div class="relative rounded-xl overflow-hidden bg-surface-container-low shadow-xl">
+<!-- Map Component Placeholder -->
+<div class="w-full h-72 sm:h-80 bg-surface-container-high relative overflow-hidden bg-cover bg-center" data-alt="Stylized dark minimalist street map showing the location pin in Jardim Pilar Mauá SP with warm golden accents and dark road outlines for a luxury dental clinic." data-location="R. Biágio Cecon, 13 - Jardim Pilar, Mauá - SP, 09370-030" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDNADSs2UkdFMGzQBO1KrxjW0CLbOr8pw3LpTs1DQwiL1jP95ABR8bi_psc5O_m5XTzZT1EcktEwx2370cEP8DyN3vgFibry1IV8cDoYuM00Xveira8kaUICgA8JWhiBlH4jqNoWS3JQUeRg7CrdGLpc-ql38jx_a2vqWBkpPd0Nwb4oiezaevwsPZ_RdtJPJD_nUYrtv2o9aYuR805CwlmeLgXhdXYOvjnJuAM18JSMmvXBhrGvaLiGw')">
+<!-- Gradient Scrim -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/40 to-transparent"></div>
+<!-- Pin Visual Customizado -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
+<div class="px-space-md py-1 rounded-full bg-surface-container-lowest shadow-xl text-primary font-label-sm text-label-sm uppercase tracking-wider flex items-center gap-1 mb-1">
+<span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+<span>Con Te Odontologia</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow-[0_0_20px_rgba(246,190,57,0.6)]">
+<span class="material-symbols-outlined text-2xl">pin_drop</span>
+</div>
+</div>
+</div>
+<!-- Barra de Ação do Mapa -->
+<div class="p-space-md bg-surface-container-low flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-base">navigation</span>
+<span class="font-body-sm text-body-sm text-primary font-medium">Jardim Pilar, Mauá</span>
+</div>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-md py-space-xs rounded-lg bg-secondary text-on-secondary font-label-md text-label-md uppercase tracking-wider hover:bg-secondary-fixed transition-all duration-200 active:scale-95 font-semibold" href="https://maps.google.com/?q=R.+Biágio+Cecon,+13+-+Jardim+Pilar,+Mauá+-+SP,+09370-030" rel="noopener noreferrer" target="_blank">
+<span>Como Chegar</span>
+<span class="material-symbols-outlined text-base">directions</span>
+</a>
+</div>
+</div>
+<!-- Card de Acolhimento Visual da Recepção da Clínica -->
+<div class="group relative rounded-xl overflow-hidden bg-surface-container-low shadow-lg flex flex-col sm:flex-row items-center">
+<div class="w-full sm:w-2/5 aspect-[4/3] sm:aspect-auto sm:h-44 overflow-hidden bg-surface-container-high shrink-0">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Warm welcoming boutique reception lounge of Con Te Odontologia in Mauá, comfortable designer seating, brass metallic textures, soft ambient lights and fresh flowers on dark stone counter." src="assets/images/reception-lounge.jpg"/>
+</div>
+<div class="p-space-md flex flex-col justify-center">
+<div class="inline-flex items-center gap-1 text-secondary mb-1">
+<span class="material-symbols-outlined text-sm">file_map_stack</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Pontualidade &amp; Conforto</span>
+</div>
+<h4 class="font-headline-sm text-base text-primary">Ambiente sereno e exclusivo</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Desenhado para você relaxar desde o primeiro instante, sem esperas prolongadas.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- MODAL INTERATIVO PARA AS ESPECIALIDADES    -->
+<!-- ========================================== -->
+<div class="fixed inset-0 z-50 flex items-center justify-center p-space-md bg-black/80 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300" id="specialty-modal">
+<div class="relative w-full max-w-lg p-space-lg md:p-space-xl rounded-xl bg-surface-container-low shadow-[0_20px_50px_rgba(0,0,0,0.8)] scale-95 transition-transform duration-300" id="modal-container">
+<!-- Botão Fechar -->
+<button aria-label="Fechar modal" class="absolute top-space-md right-space-md w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" id="modal-close">
+<span class="material-symbols-outlined text-lg">close</span>
+</button>
+<!-- Conteúdo do Modal -->
+<div class="flex flex-col gap-space-sm">
+<div class="inline-flex items-center gap-space-xs text-secondary">
+<span class="material-symbols-outlined text-lg">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest">Especialidade Con Te</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-primary tracking-tight" id="modal-title"></h3>
+<p class="font-body-md text-body-md text-on-surface-variant pt-space-xs leading-relaxed" id="modal-desc"></p>
+<div class="p-space-md rounded-lg bg-surface-container mt-space-sm flex items-center gap-space-sm text-outline">
+<span class="material-symbols-outlined text-secondary">calendar_clock</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Consulta diagnóstica com equipe especialista e escaneamento digital.</span>
+</div>
+<div class="pt-space-md flex flex-col sm:flex-row items-stretch sm:items-center gap-space-sm mt-space-xs">
+<a class="flex-1 inline-flex items-center justify-center gap-space-xs px-space-md py-3 rounded-lg bg-secondary text-on-secondary font-bold text-label-md uppercase tracking-wider hover:bg-secondary-fixed transition-all duration-200 active:scale-95 shadow-[0_4px_20px_rgba(246,190,57,0.3)]" href="https://wa.me/5511972044184" id="modal-wa-btn" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-lg">chat</span>
+<span>Agendar pelo WhatsApp</span>
+</a>
+<button class="px-space-md py-3 rounded-lg bg-surface-container text-on-surface-variant hover:text-primary font-label-md text-label-md uppercase tracking-wider transition-colors" id="modal-cancel-btn">
+            Voltar
+          </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Script Vanilla com Microinterações e Rotação Suave -->
+<script>
+    (function() {
+      // 1. Rolagem suave para navegação interna
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          const targetId = this.getAttribute('href');
+          if (targetId && targetId !== '#') {
+            const targetEl = document.querySelector(targetId);
+            if (targetEl) {
+              e.preventDefault();
+              targetEl.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+              });
+            }
+          }
+        });
+      });
+
+      // 2. Interatividade dos Cards de Especialidades
+      const modal = document.getElementById('specialty-modal');
+      const modalContainer = document.getElementById('modal-container');
+      const modalClose = document.getElementById('modal-close');
+      const modalCancel = document.getElementById('modal-cancel-btn');
+      const modalTitle = document.getElementById('modal-title');
+      const modalDesc = document.getElementById('modal-desc');
+      const modalWaBtn = document.getElementById('modal-wa-btn');
+
+      function openModal(title, desc) {
+        modalTitle.textContent = title;
+        modalDesc.textContent = desc;
+        modalWaBtn.href = 'https://wa.me/5511972044184?text=' + encodeURIComponent('Olá! Gostaria de agendar uma avaliação para a especialidade de ' + title + '.');
+        modal.classList.remove('opacity-0', 'pointer-events-none');
+        modalContainer.classList.remove('scale-95');
+        modalContainer.classList.add('scale-100');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal() {
+        modal.classList.add('opacity-0', 'pointer-events-none');
+        modalContainer.classList.remove('scale-100');
+        modalContainer.classList.add('scale-95');
+        document.body.style.overflow = '';
+      }
+
+      document.querySelectorAll('.specialty-card').forEach(card => {
+        card.addEventListener('click', () => {
+          const title = card.getAttribute('data-specialty');
+          const desc = card.getAttribute('data-desc');
+          openModal(title, desc);
+        });
+      });
+
+      if (modalClose) modalClose.addEventListener('click', closeModal);
+      if (modalCancel) modalCancel.addEventListener('click', closeModal);
+      if (modal) {
+        modal.addEventListener('click', (e) => {
+          if (e.target === modal) closeModal();
+        });
+      }
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !modal.classList.contains('pointer-events-none')) {
+          closeModal();
+        }
+      });
+    })();
+  </script>
+</div></main><footer class="w-full bg-[#070707] border-t border-outline-variant/30 text-on-surface-variant"><div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-12 gap-space-xl pb-space-lg border-b border-outline-variant/20"><div class="md:col-span-5 flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="Con Te Odontologia" class="w-10 h-10 rounded-full object-cover border border-secondary/30" src="assets/images/logo.png"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-wide uppercase">Con Te</span><span class="font-label-sm text-label-sm tracking-widest text-secondary uppercase -mt-1">Odontologia Especializada</span></div></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm pt-space-xs">A união entre a precisão arquitetônica, tecnologia avançada e a estética orofacial de excelência absoluta.</p></div><div class="md:col-span-3 flex flex-col gap-space-xs"><span class="font-label-md text-label-md uppercase text-secondary tracking-widest">Navegação</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#clinica">A Clínica</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#especialidades">Especialidades</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#equipe">Nossa Equipe</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" href="#contato">Contato &amp; Localização</a></div><div class="md:col-span-4 flex flex-col gap-space-xs"><span class="font-label-md text-label-md uppercase text-secondary tracking-widest">Endereço &amp; Contato</span><p class="font-body-sm text-body-sm text-on-surface-variant">R. Biágio Cecon, 13 – Jardim Pilar, Mauá – SP<br/>CEP 09370-030</p><a class="font-body-sm text-body-sm text-secondary hover:text-secondary-fixed transition-colors pt-space-xs" href="https://wa.me/5511972044184" rel="noopener noreferrer" target="_blank">(11) 97204-4184</a></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-sm"><p class="font-label-sm text-label-sm text-outline tracking-wider">© 2025 Con Te Odontologia Especializada. Todos os direitos reservados.</p><span class="font-label-sm text-label-sm text-outline tracking-widest uppercase">Haute Esthétique Dentaire</span></div></div></footer></body></html>
